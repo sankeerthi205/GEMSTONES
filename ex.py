@@ -1,2 +1,2 @@
 var = 100
-print(var)
+print(var*var)

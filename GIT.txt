@@ -1,0 +1,13 @@
+//GIT
+create a file: type.py
+cat add.py
+git init
+git add add.py
+git commit-m "saved"
+
+
+//PUSH LOCAL TO GITHUB
+copy the https link from code in repository
+git remote add origin "https://link......"
+git pul origin main
+git push origin master

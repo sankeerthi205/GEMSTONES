@@ -1,0 +1,102 @@
+Ask the user for a input, if input > 0 print positive 
+#check and print whether input is mutilple of 2,5,2 & 5 else return it as negative or neither 
+#divisible by 2 or 5
+
+var = int(input("Enter the number"))
+if var>0:
+    print("Positive")
+    if (var%2==0 and var%5 == 0):
+        print("%d is multiple of 2 and 5" %(var))
+    elif (var%2 == 0):
+        print("%d is multiple of 2" %(var))
+    elif (var%5 == 0):
+        print("%d is multiple of 5" %(var))
+    else:
+        print("%d is not a multiple of 2 or 5" %(var))
+else:
+    print("negative")
+---------------------------------------------------------------------------------------
+
+#Find the occurence of a in banana
+c=0
+for i in range(len(word)):
+    if word[i] == 'a':
+        print(i, end =" ")
+        c=c+1
+print(end='\n')
+print("The no of occurences is :{}" .format(c))
+
+---------------------------------------------------------------------------------------
+guess = 88
+#Ask the user for an input and repeat the loop until the user provides correct guess value
+
+var = int(input("Enter the guess value"))
+while var != guess:
+    var = int(input("Enter the guess value"))
+---------------------------------------------------------------------------------------
+#Write a function to return the count of lower & upper case letters
+s = "Hello, welcome to the PYTHON class in JPMC"
+def lower_upper(s):
+    l=0
+    u=0
+    for i in range(len(s)):
+        if s[i].islower():
+            l+=1
+        elif s[i].isupper():
+            u+=1
+    return l,u
+-------------------------------------------------------------------------------------
+#Write a function to verify a number is prime or not
+import math
+def prime(x):
+    for i in range(2,int(math.sqrt(x))+1):                          #typecast
+        if x%i == 0: 
+            print("It is not a prime")
+            return
+    print("It is prime")
+    return
+-------------------------------------------------------------------------------------
+#Write a function to implement selection sort and find min
+l4 = [10,14,8,9]
+def sel_sorting(l):
+    for k in range(len(l)):
+        min = k
+        for i in range(k+1,len(l)):
+            if l[i]<l[min]:
+                min=i
+        (l[k],l[min]) = (l[min],l[k])
+    return l
+OUTPUT:
+sel_sorting(l4)
+[8, 9, 10, 14]
+-------------------------------------------------------------------------------------
+#decorators
+def new_decorator(actual_func):
+    '''A new Decorator Function'''
+    def wrapper_func():
+        print("Statement before the execution of the function")
+        actual_func()
+        print("The statement after the execution of the function")
+    return wrapper_func
+@new_decorator
+def decorator_needed():             #function getting passed as an argument to another func
+    print("I am not decorated yet")
+
+output:
+decorator_needed()
+Statement before the execution of the function
+I am not decorated yet
+The statement after the execution of the function
+---------------------------------------------------------------------------------------
+mymath:
+def add(x,y):
+    return x+y                      output:
+def mul(x,y):                       Hello
+    return x*y                      12
+                                    20
+
+import mymath
+mymath.display()
+print(mymath.add(3,4))
+print(mymath.mul(4,5))
+--------------------------------------------------------------------------------------

@@ -1,0 +1,25 @@
+General purpose programming language
+
+Easy syntax --> comprehensive
+Identation --> To represent a block of code
+Data Science --> Numpy, scipy
+ML --> sklearn, statsmodule
+IOT
+Deep Learning
+Networking
+Testing
+Big Data
+//Everything is done in jupyter notebook--> Python_week1
+
+OOPS:
+Python is not a pure OOP
+
+class name:
+   pass
+
+//GIT
+create a notepad: type.py
+cat add.py
+git init
+git add add.py
+git commit-m "saved"

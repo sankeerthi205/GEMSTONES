@@ -1,0 +1,50 @@
+DATA SCIENCE/ DATA ANALYTICS/DATA MINING/BUSINESS ANAYTICS/ML --- WEEK 1
+
+STEM : SCIENCE, TECH, ENG, MATH
+
+
+1990's--> www era, Personal computers
+Amazon, Facebook, google, yahoo --- providing online services.
+
+Flat files: excel, word, pdf, notepad---(unstructured)
+Problems with File System:
+1. Linear search
+2. Redundancy
+3. No concurrent transactions/operations
+
+Online Transaction Processing OLTP
+-->Databases(only used for transactions), Oracle(SQL(PAID)--used for big projects,MYSQL--simple version --open source)
+Microsoft(SQLserver), post-gre, db2, maria db
+
+Hierarchial DB
+Networking DB
+Relational DB 
+
+ACID Complaint
+--> no linear search beacuse of key constraints, normalisation.
+
+Online Analytics Processing--OLAP
+Data warehouses-- used for analytics not for transcations.
+Analytics-->DATA WAREHOUSE    Processing-->DATABASE        
+
+DATA SCIENCE LIFE CYCLE
+-----------------------
+1. Data Engineering --> Collection, Storage, Process & management of data.[Excel, RDBMS, data warehouse, Hadoop, Cloud]
+2. Data Analytics --> Explore & Analyse the data, maths, stats, domain knowledge[Pandas, R, ExcelL, SQL, CRM]
+3. Data Visulisation/Business Intelligence(BI) --> charts, reports, ppts, dashboards, etc.
+     TOOLS(Licensed softwares): Tableau, Power BI, Qlikview, Lookr, Cognos
+     ETL: Extract, Transform, Load data --> preprocessing--> loading what necessary  //AI tools in POWER BI(NLP)
+4. Adavanced Analytics --> ML, Deep Leraning/Neural Networks
+
+GOAL--> Solution Development
+
+//CLICKSTREAM ANALYTICS --> RECOMENDATIONS--ML
+
+Deployment --> Web Application Framework [Flask(small scale), Django(big scale ex: INSTA) --> Python]
+//Tomacat - JAVA Web server
+
+Testing --> Unit test cases, Selenium
+
+
+
+
